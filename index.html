@@ -1,11 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUTAMBA ROOFING SERVICES</title>
+    <title>MUTAMBA RS</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/Logo.jpeg" type="image/jpeg" />
 </head>
+
 <body>
-    
+    <section id="home">
+        <nav>
+            <div class="nav__logo"><a href="#">Mutamba RS.</a></div>
+            <ul class="nav__links" id="nav-links">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#about">About</a></li>
+                <li class="link"><a href="#contact">Contact</a></li>
+                <li class="link"><a href="#blogs">Blogs</a></li>
+                <li class="link"><a href="#projects">Projects</a></li>
+                <li class="link"><a href="#reviews">Reviews</a></li>
+            </ul>
+            <div class="nav__menu__btn" id="menu-btn">
+                <span><i class="ri-menu-3-line"></i></span>
+            </div>
+        </nav>
+
+
+        <header class="section__container header__container" id="home">
+            <div class="header__content">
+                <h1>Your Roofing, Our Passion</h1>
+                <div class="header__content__details">
+                    <p>
+                        At Mutamba Roofing Services, we are passionate about delivering top-quality roofing solutions
+                        that
+                        protect and elevate your property. From homes to warehouses, we specialize in all types of
+                        roofing
+                        with precision, durability, and unmatched expertise.
+                    </p>
+                    <button class="btn">Explore</button>
+                </div>
+            </div>
+            <div class="header__image">
+                <img src="assets/Header.jpeg" alt="header" />
+                <img src="assets/Logo.jpeg" alt="logo" />
+            </div>
+        </header>
+    </section>
+
+    <section class="section__container about__container" id="about">
+        <div class="about__header">
+            <div class="about__image">
+                <img src="assets/About.jpeg" alt="about" />
+            </div>
+            <div class="about__content">
+                <p class="section__subheader">About Us</p>
+                <h2 class="section__header">Reliable Roofing, Built to Last</h2>
+                <p class="paragraph">
+                    At Mutamba Roofing Services, our skilled team brings years of experience and craftsmanship to every
+                    project. From residential homes to large-scale warehouses, we deliver high-quality roofing solutions
+                    that are durable, efficient, and tailored to your needs. We’re committed to protecting what matters
+                    most—one roof at a time.
+                </p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+        <div class="about__grid">
+            <div class="about__card">
+                <span><i class="ri-home-gear-line"></i></span>
+                <div>
+                    <h4>Roof Design</h4>
+                    <p>
+                        We tailor roofing designs to meet your specific needs—balancing functionality, durability, and
+                        visual appeal for homes and warehouses alike.
+                    </p>
+                </div>
+            </div>
+            <div class="about__card">
+                <span><i class="ri-building-line"></i></span>
+                <div>
+                    <h4>Installation</h4>
+                    <p>
+                        Our skilled team handles every roofing project with precision, using top-quality materials to
+                        ensure long-lasting performance and protection.
+                    </p>
+                </div>
+            </div>
+            <div class="about__card">
+                <span><i class="ri-shield-check-line"></i></span>
+                <div>
+                    <h4>Inspection & Maintenance</h4>
+                    <p>
+                        We don’t just install—we inspect and maintain your roof to keep it in top condition, extending
+                        its life and safeguarding your investment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="projects">
+        <div class="portfolio__header">
+            <div>
+                <p class="section__subheader">Projects</p>
+                <h2 class="section__header">Our Roofing Projects</h2>
+            </div>
+            <div>
+                <p class="paragraph">
+                    Take a look at some of our completed roofing projects—each one showcasing our craftsmanship,
+                    attention to detail, and commitment to quality across residential and commercial spaces.
+                </p>
+                <a href="#" class="btn__link">
+                    View All <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio__grid">
+            <div class="portfolio__card">
+                <img src="assets/Project-1.jpeg" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/Project-2.jpeg" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/Project-3.jpeg" alt="portfolio" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container client__container" id="reviews">
+        <div class="client__header">
+            <div>
+                <p class="section__subheader">Reviews</p>
+                <h2 class="section__header">What Our Client Says</h2>
+            </div>
+            <div>
+                <a href="#" class="btn__link">
+                    View All <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+            </div>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <img src="assets/profile-pic-1.jpg" alt="client" />
+                        <div>
+                            <h4>Andress Mount</h4>
+                            <div class="client__ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-line"></i></span>
+                            </div>
+                            <p>
+                                Mutamba Roofing Services did a fantastic job on my home’s roof. The team was
+                                professional, quick, and the results speak for themselves. Highly recommended!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <img src="assets/profile-pic-2.jpg" alt="client" />
+                        <div>
+                            <h4>Sarah Anderson</h4>
+                            <div class="client__ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-half-fill"></i></span>
+                                <span><i class="ri-star-line"></i></span>
+                            </div>
+                            <p>
+                                I needed a warehouse re-roofed fast. Mutamba Roofing came through with speed and
+                                quality. They handled the scale of the project without a hitch.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <img src="assets/profile-pic-3.jpg" alt="client" />
+                        <div>
+                            <h4>Michael Kalu</h4>
+                            <div class="client__ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                Excellent craftsmanship. They replaced my old roof and even helped me choose the best
+                                design for my home. Friendly crew and fair pricing too.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <img src="assets/profile-pic-4.jpg" alt="client" />
+                        <div>
+                            <h4>Lindiwe Moyo</h4>
+                            <div class="client__ratings">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-line"></i></span>
+                                <span><i class="ri-star-line"></i></span>
+                            </div>
+                            <p>
+                                They did a decent job, but there was a delay due to rain. Communication was good
+                                throughout, and the final result looks great. Would hire again.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container news__container" id="blogs">
+        <p class="section__subheader">Blogs</p>
+        <h2 class="section__header">Latest Updates from Mutamba Roofing</h2>
+        <div class="news__grid">
+            <div class="news__card">
+                <img src="assets/news-1.jpg" alt="news" />
+                <div>
+                    <h4>Choosing the Right Roof for Your Home</h4>
+                    <p>
+                        Learn how to pick the perfect roofing material for your home based on durability, climate, and
+                        style.
+                    </p>
+                    <a href="#" class="btn__link">
+                        View All <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="news__card">
+                <img src="assets/news-3.jpg" alt="news" />
+                <div>
+                    <h4>How to Maintain Your Roof All Year Round</h4>
+                    <p>
+                        Regular maintenance can save you thousands. Here’s how to keep your roof in top shape across all
+                        seasons.
+                    </p>
+                    <a href="#" class="btn__link">
+                        View All <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="news__card">
+                <img src="assets/news-2.jpg" alt="news" />
+                <div>
+                    <h4>Our Warehouse Roofing Projects Spotlight</h4>
+                    <p>
+                        Take a look at some of our latest large-scale roofing projects for commercial and industrial
+                        buildings.
+                    </p>
+                    <a href="#" class="btn__link">
+                        View All <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section__container contact__container">
+            <h2 class="section__header">
+                Would Like To Start Your Project With Us
+            </h2>
+            <div class="contact__btn">
+                <a href="mailto:mutambandiro.solom@gmail.com" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section__container footer__container">
+        <div class="footer__col">
+            <h5><a href="#">Mutamba RS.</a></h5>
+        </div>
+        <div class="footer__col">
+            <h4>Our Contact</h4>
+            <p>Gauteng, Mabopane, 0190</p>
+            <p>061 828 2663</p>
+            <p>mutambandiro.solom@gmail.com</p>
+        </div>
+        <div class="footer__col">
+            <h4>About Us</h4>
+            <p>
+                Whether you're building a new home or upgrading an existing structure, Mutamba Roofing Services is your
+                trusted partner for reliable and professional roofing solutions. From residential homes to large-scale
+                warehouses, we’ve got your roof covered.
+            </p>
+
+        </div>
+        <div class="footer__col">
+            <h4>Subscribe</h4>
+            <form action="/">
+                <input type="text" placeholder="Your Email" />
+                <button><i class="ri-send-plane-2-fill"></i></button>
+            </form>
+            <div class="footer__socials">
+                <h4>Follow Us</h4>
+                <div>
+                    <a href="https://www.facebook.com/people/Mutamba-Roofing-Services/61575102561398/" target="_blank"><i
+                            class="ri-facebook-box-fill"></i></a>
+                    <!-- <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer__bar">
+        Copyright © <span id="year"></span> Mutamba Roofing Services. All rights reserved.
+    </div>
+
+    <script src="shiftTab.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
 </body>
+
 </html>
